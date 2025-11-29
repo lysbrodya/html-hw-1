@@ -1,34 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ua">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Webstudio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <a href="/">Webstudio</a>
-      <nav>
-        <ul>
-          <li><a href="">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
-          <li><a href="">Контакти</a></li>
+    <header class="header">
+      <a href="/" class="logo">Webstudio</a>
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="nav-link" href="">Студія</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Портфоліо</a></li>
+          <li class="nav-item"><a class="nav-link" href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      <ul class="contact-list">
+        <li class="contact-item">
+          <a class="contact-link" href="mailto:info@devstudio.com"
+            >info@devstudio.com</a
+          >
+        </li>
+        <li class="contact-item">
+          <a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </li>
       </ul>
     </header>
     <main>
       <!-- // Hero Section -->
-      <section>
+      <section class="section hero">
         <h1>Ефективні рішення для вашого бізнесу</h1>
         <button type="button">Замовити послугу</button>
       </section>
       <!-- // Advantages Section -->
-      <section>
-        <h2>Our Advantages</h2>
+      <section class="section">
+        <h2 class="visually-hidden">Our Advantages</h2>
         <ul>
           <li>
             <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -60,45 +71,49 @@
         </ul>
       </section>
       <!-- // Activity Section -->
-      <section>
+      <section class="section">
         <h2>Чим ми займаємося</h2>
         <ul>
           <li>
             <img
               src="./images/activiti-section/img1.jpg"
-              alt="working on laptop"
+              alt="робота за комп'ютером"
               width="370"
             />
           </li>
           <li>
             <img
               src="./images/activiti-section/img2.jpg"
-              alt="creatimg mobie version"
+              alt="створення мобільного додатку"
               width="370"
             />
           </li>
           <li>
             <img
               src="./images/activiti-section/img3.jpg"
-              alt="working with planshet"
+              alt="робота на планшеті"
               width="370"
             />
           </li>
         </ul>
       </section>
       <!-- // Portfolio Section -->
-      <section>
+      <section class="section">
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <img src="./images/portfolio-section/img.jpg" alt="" width="270" />
+            <img
+              src="./images/portfolio-section/img.jpg"
+              alt="фото працівника в окулярах"
+              width="270"
+            />
             <h3>Ігор Дем'яненко</h3>
             <p>Product Designer</p>
           </li>
           <li>
             <img
               src="./images/portfolio-section/img-1.jpg"
-              alt=""
+              alt="фото працівника"
               width="270"
             />
             <h3>Ольга Рєпіна</h3>
@@ -107,7 +122,7 @@
           <li>
             <img
               src="./images/portfolio-section/img-2.jpg"
-              alt=""
+              alt="фото працівника"
               width="270"
             />
             <h3>Микола Тарасов</h3>
@@ -116,7 +131,7 @@
           <li>
             <img
               src="./images/portfolio-section/img-3.jpg"
-              alt=""
+              alt="фото працівника"
               width="270"
             />
             <h3>Михайло Єрмаков</h3>
